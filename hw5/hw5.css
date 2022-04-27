@@ -1,0 +1,53 @@
+*{
+    background-color: rgb(255, 255, 128);
+}
+.Station{
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    left: 60px;
+    height: 15px;
+    text-align: center;
+    padding: 15px;
+    border: 3px black solid;
+    margin-right: 20px;
+    margin-top: 40px;
+    font-size: 20px;
+    color:blue;
+    background-color:gray
+}
+.Arrow {
+    position: relative;
+    display: inline-block;
+    text-align:center;
+    font-size: 20px;
+    top:10px;
+    margin-left: 100px;
+    margin-top: 10px;  
+    width: 0; 
+    height: 0; 
+    border-width: 10px; 
+    border-style: inset; 
+    border-color: transparent transparent transparent black;
+  }
+  #Price{
+    position: absolute;
+    font-size: 20px;
+    left:50%;
+  }
+  #Start{
+      position: absolute;
+      left:15%;
+      font-size: 20px;
+  }
+  #End{
+      position: absolute;
+      font-size: 20px;
+      left:30%;
+  }
+  #value{
+      position: absolute;
+
+      font-size: 25px;
+      left: 60%;
+  }
