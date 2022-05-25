@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="App">
       <body>
+            <label>LOGO</label><br/>
             <label>Username</label>
             <input type="text" placeholder="Enter Username" required/><br/>
             <label>Password</label>
